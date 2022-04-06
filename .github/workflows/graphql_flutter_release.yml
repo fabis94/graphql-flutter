@@ -11,6 +11,7 @@ on:
     workflows:
       - "graphql-flutter Dart Code sanity check"
       - "graphql-flutter Tests case"
+      - "graphql Release Package"
     branches: [ main ]
     types:
       - completed
